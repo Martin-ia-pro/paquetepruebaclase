@@ -19,7 +19,21 @@ library(paquetepruebaclase)
 ```
 
 esta es una viñeta de prueba en donde podemos explicar funciones.
+
+# Funciones:
+
+## suma:
+esta toma dos valores o vectores numericos y los suma devoviendo su resultado. 
+
+Ejemplo:
 ```{r}
 suma(2,2)
+```
+## pulgadas_a_centimetros: 
+La funcion pulgadas_a_centimetros recive una medida en pulgadas que y lo transforma en centimetro
+
+Ejemplo:
+```{r}
+pulgadas_a_centimetros(300)
 ```
 

@@ -8,10 +8,13 @@
 #' un valor o vector numérico con la conversion de las pulgadas
 #'
 #' @examples
-#' pulgadas_a_centimetros(30)
+#' conversion_pulgada(30)
 #'
 #' @export
-pulgadas_a_centimetros <- function(medida_pulgada){
-  conversion <- medida_pulgada*2.54
-  conversion
-}
+conversion_pulgada <- function(medida_pulgada){
+  if(!is.numeric(medida_pulgada)) {
+    stop("el argumento debe ser numérico")
+  } else {
+    conversion <- medida_pulgada*2.54
+    conversion
+  }}

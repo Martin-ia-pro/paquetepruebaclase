@@ -15,7 +15,7 @@
 #' @export
 suma <- function(x=10, y=20) {
   if (!is.numeric(x) |!is.numeric(y)) {
-    stop("ambos argumentos deben ser numéricos")
+    stop("ambos argumentos deben ser numericos")
   }
   else if (x < 0 | y < 0) {
     stop("ambos argumentos deben ser no negativos")
